@@ -1,0 +1,30 @@
+footer{
+    padding: 15px 0;
+    text-align: center;
+    background-color: white;
+}
+
+footer section{
+    padding: 50px 30px 0;
+}
+
+footer i{
+font-size: 2em;
+color: var(--Celeste);
+margin-bottom: 10px;
+}
+
+footer h3{
+    color: var(--Gris-oscuro);
+    margin: 0%;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer section.copyright{
+    padding: 50px 20px 0;
+    text-align: initial;
+}
+
