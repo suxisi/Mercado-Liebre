@@ -1,14 +1,11 @@
 header {
     background-color: var(--Amarillo);
     width: 100%;
-    height: 200px;
+    height: 70%;
 }
 
 header .superior {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    
     padding-top: 20px;
     align-items: center;
 }
@@ -25,73 +22,17 @@ header .burger-menu {
     text-align: center;
 }
 
-header nav ul {
-    display: none;
-}
 header .logo{
     width: 50%;
+    padding: 4%;
 }
 
 header #busqueda{
     width: 50%;
+    padding-left: 4%;
 }
 
-@media(min-width:460px) {
-    header .textodepaga {
-        width: 30%;
-    }
-
-    header #busqueda {
-        width: 45%;
-        display: flex;
-        justify-content: center;
-    }
-
-    header #busqueda input {
-        width: 70%;
-    }
-
-    header .logo {
-        width: 25%;
-    }
-
-    header {
-        height: 200px;
-
-    }
-
-    header nav {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: space-evenly;
-        margin-top: 30px;
-    }
-
-    header .burger-menu {
-        display: none;
-    }
-
-    header nav ul {
-        display: flex;   
-        justify-content: space-evenly;
-        width: 45%;
-    }
-
-}
-
-
-@media(min-width:768px) {
-
-
-
-    header .superior {
-        display: flex;
-        flex-direction: row;
-    }
-
-    header .burger-menu {
-        display: none;
-    }
-
+header p{
+    text-align: center;
+    padding: 5%;
 }
