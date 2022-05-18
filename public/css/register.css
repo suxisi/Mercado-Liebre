@@ -1,0 +1,80 @@
+body{
+    background-color: var(--Gris-claro);
+}
+
+.register h1{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+    }
+
+.register h4{
+    display: flex;
+    margin-left: 5% ;
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+.register__form-box input{
+   border: none;
+   margin-left:5%; ;
+   margin-bottom: 4%;
+   padding: 2%;
+   border-radius: 5px;
+   width: 85%;
+} 
+
+.register__radio-box{
+    display: inline-flex;
+    margin-left: 4%;
+}
+
+.register__radio-box label{
+    display: flex;
+    padding: 10px;
+    width: 50px;
+
+}
+
+.register__check-box input{
+    display: inline;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin:5%
+}
+
+.register__form-box label{
+    margin-top: 10px;
+}
+
+.register__form-box label.texto-foto-contraseña{
+    padding: 5%;
+}
+
+.register div.botones{
+    padding: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.register div.botones button{
+    background-color: transparent;
+    color : black;
+    padding: 4% 5%;
+    border-radius:10px;
+    border-color: var(--Celeste);
+    transition: 0.5s;
+    border-width: 1px;
+    font: var(--body-fonts);
+    font-size: 15px;
+}
+
+.register div.botones button:hover{
+    background-color: var(--Celeste);
+    color: white;
+}
+
+
+
