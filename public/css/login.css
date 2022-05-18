@@ -1,0 +1,45 @@
+body {
+    background-color: var(--Gris-claro);
+}
+
+.login h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login__form-box input {
+    border: none;
+    margin-left: 5%;
+    ;
+    margin-bottom: 4%;
+    padding: 2%;
+    border-radius: 5px;
+    width: 85%;
+}
+
+.login div.botones {
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.login div.botones button {
+    background-color: transparent;
+    color: black;
+    width:30%;
+    height:50px;
+    border-radius: 1rem;
+    border-color: var(--Celeste);
+    transition: 0.5s;
+    border-width: 1px;
+    font: var(--body-fonts);
+    font-size: 15px;
+}
+
+.login div.botones button:hover {
+    background-color: var(--Celeste);
+    color: white;
+}

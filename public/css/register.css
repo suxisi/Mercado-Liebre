@@ -62,8 +62,9 @@ body{
 .register div.botones button{
     background-color: transparent;
     color : black;
-    padding: 4% 5%;
-    border-radius:10px;
+    width:30%;
+    height:50px;
+    border-radius: 1rem;
     border-color: var(--Celeste);
     transition: 0.5s;
     border-width: 1px;
