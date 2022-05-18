@@ -74,7 +74,7 @@ body{
 
 .register div.botones button:hover{
     background-color: var(--Celeste);
-    color: whitesmoke;
+    color: white;
 }
 
 
